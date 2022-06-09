@@ -74,6 +74,9 @@
 		92BE396C28526388001EBDE0 = {
 			isa = PBXGroup;
 			children = (
+				92BE39A428526BC9001EBDE0 /* Environments */,
+				92BE39A328526BBB001EBDE0 /* Resources */,
+				92BE39A228526BAD001EBDE0 /* Core */,
 				92BE397728526388001EBDE0 /* store */,
 				92BE39882852638A001EBDE0 /* storeTests */,
 				92BE39922852638A001EBDE0 /* storeUITests */,
@@ -94,9 +97,11 @@
 		92BE397728526388001EBDE0 /* store */ = {
 			isa = PBXGroup;
 			children = (
+				92BE39A828526BEA001EBDE0 /* Flows */,
+				92BE39A728526BE5001EBDE0 /* Assembly */,
+				92BE39A628526BDE001EBDE0 /* Entity */,
+				92BE39A528526BD8001EBDE0 /* BusinessLogic */,
 				92BE397828526388001EBDE0 /* storeApp.swift */,
-				92BE397A28526388001EBDE0 /* ContentView.swift */,
-				92BE397C2852638A001EBDE0 /* Assets.xcassets */,
 				92BE397E2852638A001EBDE0 /* Preview Content */,
 			);
 			path = store;
@@ -125,6 +130,57 @@
 				92BE39952852638A001EBDE0 /* storeUITestsLaunchTests.swift */,
 			);
 			path = storeUITests;
+			sourceTree = "<group>";
+		};
+		92BE39A228526BAD001EBDE0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		92BE39A328526BBB001EBDE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92BE397A28526388001EBDE0 /* ContentView.swift */,
+				92BE397C2852638A001EBDE0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92BE39A428526BC9001EBDE0 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		92BE39A528526BD8001EBDE0 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		92BE39A628526BDE001EBDE0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		92BE39A728526BE5001EBDE0 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		92BE39A828526BEA001EBDE0 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
