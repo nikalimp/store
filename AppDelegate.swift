@@ -12,10 +12,21 @@ import FirebaseCore
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
+        print("Start")
         return true
     }
 
+@main
+    struct NewIn14App: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
+    var body: some Scene {
+        WindowGroup {
+        ContentView()
+    }
+    }
+    }
+              
 func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
