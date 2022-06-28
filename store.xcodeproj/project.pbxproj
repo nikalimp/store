@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92625607286AD3B000A9313D /* ResponseCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92625606286AD3B000A9313D /* ResponseCodableTests.swift */; };
 		92A76C8A2855D0B6002A61FA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A76C892855D0B6002A61FA /* LoginView.swift */; };
 		92A76C8C2855EA03002A61FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A76C8B2855EA03002A61FA /* GoogleService-Info.plist */; };
 		92A76C8F2855EA75002A61FA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 92A76C8E2855EA75002A61FA /* FirebaseAuth */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92625606286AD3B000A9313D /* ResponseCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCodableTests.swift; sourceTree = "<group>"; };
 		92A76C892855D0B6002A61FA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		92A76C8B2855EA03002A61FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		92A76C922855ECA1002A61FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				92BE39892852638A001EBDE0 /* storeTests.swift */,
+				92625606286AD3B000A9313D /* ResponseCodableTests.swift */,
 			);
 			path = storeTests;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BE398A2852638A001EBDE0 /* storeTests.swift in Sources */,
+				92625607286AD3B000A9313D /* ResponseCodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
