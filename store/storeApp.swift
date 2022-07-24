@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-@main
 struct storeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
         }
     }
 }
