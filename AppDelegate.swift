@@ -22,7 +22,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
     var body: some Scene {
         WindowGroup {
-        ContentView()
+        TabBar()
     }
     }
     }
